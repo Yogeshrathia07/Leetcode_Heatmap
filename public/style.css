@@ -1,0 +1,124 @@
+body {
+  background: #0d1117;
+  color: white;
+  font-family: Arial;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+.search {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+}
+
+button {
+  padding: 10px;
+  background: #238636;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.card {
+  background: #161b22;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.top-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.progress-card {
+  text-align: center;
+}
+
+.progress-text {
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+.difficulty-box {
+  margin-top: 10px;
+}
+
+.easy { color: #2ecc71; }
+.medium { color: #f1c40f; }
+.hard { color: #e74c3c; }
+
+.badges {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  background: #222;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.heatmap-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.month-labels {
+  display: grid;
+  grid-template-columns: repeat(53, 14px);
+  gap: 3px;
+  margin-left: 40px;
+  margin-bottom: 5px;
+}
+
+.month {
+  font-size: 10px;
+  color: #aaa;
+}
+
+.heatmap-wrapper {
+  display: flex;
+  gap: 5px;
+}
+
+.day-labels {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 10px;
+  color: #aaa;
+  height: 100px;
+}
+
+.heatmap {
+  display: grid;
+  grid-template-rows: repeat(7, 14px);
+  grid-auto-flow: column;
+  gap: 3px;
+}
+
+.day {
+  width: 14px;
+  height: 14px;
+  background: #2d333b;
+  border-radius: 3px;
+}
+
+.level-1 { background: #0e4429; }
+.level-2 { background: #006d32; }
+.level-3 { background: #26a641; }
+.level-4 { background: #39d353; }
